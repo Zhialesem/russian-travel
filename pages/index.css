@@ -5,3 +5,20 @@
 @import url(../block/header/__logo/header__logo.css);
 @import url(../block/header/__lang/header__lang.css);
 @import url(../block/header/__link/header__llink.css);
+
+@import url(../block/lead/lead.css);
+@import url(../block/lead/__title/lead__title.css);
+@import url(../block/lead/__subtitle/lead__subtitle.css);
+@import url(../block/lead/_image/lead__image.css);
+@import url(../block/lead/__shelf/lead__img-shelf.css);
+@import url(../block/lead/__caption/lead__caption.css);
+
+@import url(../block/intro/intro.css);
+@import url(../block/intro/__text/intro__text.css);
+@import url(../block/intro/__title/intro__title.css);
+
+
+@import url(../block/table/table.css);
+@import url(../block/table/__cell/table__cell.css);
+@import url(../block/table/__data/table__data.css);
+@import url(../block/table/__text/table__text.css);
