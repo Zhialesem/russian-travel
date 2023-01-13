@@ -6,7 +6,6 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
-  /* or 104% */
 }
 
 @media (max-width: 768px) {
