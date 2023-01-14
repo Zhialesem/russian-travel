@@ -31,6 +31,6 @@
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
 
     gap: calc((100vw - 320px) / (768 - 320)*(48 - 12) + 12px) calc((100vw - 320px) / (768 - 320)*(48 - 32) + 32px);
-    padding-top: calc((100vw - 320px) / (768 - 320)*(72 - 50) + 50px)
+    padding-top: calc((100vw - 320px) / (768 - 320)*(72 - 50) + 50px);
   }
 }
