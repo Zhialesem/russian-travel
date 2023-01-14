@@ -14,20 +14,21 @@ russian-travel / Путешествие по России
 Сайт собирался по макету в Фигме. Он должен корректно отображаться на экранах всех популярных размеров. 
 В макете в «Фигме» показан дизайн страницы для ширины в 320, 768, 1024 и 1280 пикселей.
 
-* Ссылка на макет в Figma: (https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-
 ### Условия развертывания
 
 Установлены Firefox, Google Chrome или Yandex Browser.
 
-### Инсталляция и запуск
+### Live cerver
 
-Скопировать проект на диск сервера или ПК. Запустить index.html.
-
+Скопировать проект на диск сервера или ПК, запустить index.html
+или перейти по ссылке внизу.
 
 ## Исполнитель
 
  **Александр Жидков**
 
+ ## ССылки
+
  * Ссылка на сайт: (https://zhialesem.github.io/russian-travel/)
+
+ * Ссылка на макет в Figma: (https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
