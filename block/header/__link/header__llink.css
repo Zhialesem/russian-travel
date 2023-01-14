@@ -17,7 +17,7 @@
 @media (max-width: 768px) {
   .header__link {
     /*  padding: 0 0 8px 18px; не стал задирать как в Фигме - не красиво*/
-font-size: calc(18px + (100vw - 320px) / (768 - 320)*(24 - 18));
-       line-height: 1.11;
+    font-size: calc(18px + (100vw - 320px) / (768 - 320)*(24 - 18));
+    line-height: 1.11;
   }
 }

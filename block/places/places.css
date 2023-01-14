@@ -16,7 +16,6 @@
 @media (max-width: 1024px) {
   .places {
     /* font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-
     --padding-side: calc((100vw - 768px) / (1024 - 768)*(48 - 24) + 24px);
     padding: calc((100vw - 768px) / (1024 - 768)*(92 - 88) + 88px) var(--padding-side) 0;
   }
@@ -25,7 +24,6 @@
 @media (max-width: 768px) {
   .places {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-
     --padding-side: calc((100vw - 320px) / (768 - 320)*(24 - 0) + 0px);
     padding: calc((100vw - 320px) / (768 - 320)*(88 - 64) + 64px) var(--padding-side) 0;
   }

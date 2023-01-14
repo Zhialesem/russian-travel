@@ -25,7 +25,7 @@
 @media (max-width: 768px) {
   .photo-grid {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-    padding:0 calc((100vw - 320px) / (768 - 320)*(24 - 16) + 16px) 0;
-      padding-top: calc((100vw - 320px) / (768 - 320)*(88 - 64) + 64px);
+    padding: 0 calc((100vw - 320px) / (768 - 320)*(24 - 16) + 16px) 0;
+    padding-top: calc((100vw - 320px) / (768 - 320)*(88 - 64) + 64px);
   }
 }

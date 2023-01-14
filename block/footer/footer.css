@@ -8,11 +8,12 @@
     padding: 92px 48px 24px;
 }
 
+/*
 @media (max-width: 1280px) {
     .footer {
-        /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
+        /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);
     }
-}
+}*/
 
 @media (max-width: 1024px) {
     .footer {

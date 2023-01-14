@@ -1,7 +1,6 @@
 .place__website {
       margin: 0;
-align-self: end;
-display: flex;
+      align-self: end;
+      display: flex;
       flex-direction: column;
-
 }

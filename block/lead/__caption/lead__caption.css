@@ -9,8 +9,6 @@
   text-transform: uppercase;
 }
 
-
-
 @media (max-width: 896px) {
   .lead__caption {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
