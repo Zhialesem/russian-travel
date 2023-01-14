@@ -1,5 +1,5 @@
 .header__link {
-  padding: 0 0 6px 18px;
+  padding: 0 0 6px 0;
   color: #fff;
   text-decoration: none;
   font-style: normal;
@@ -9,10 +9,12 @@
   display: flex;
   align-items: end;
 }
-
+/*
 .header__link:lang(ru) {
   text-decoration: underline;
-}
+  }
+  */
+
 
 @media (max-width: 768px) {
   .header__link {
