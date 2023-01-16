@@ -21,7 +21,7 @@
   padding-top: 0px;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 720px) {
   .footer__link {
     font-family: 'Inter';
     font-style: normal;

@@ -10,7 +10,7 @@
     line-height: 112%;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 720px) {
     .footer__links {
         flex-direction: column;
     }

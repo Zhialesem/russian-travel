@@ -9,7 +9,7 @@
     line-height: 163%;
 }
 
-.place__paragraph:last-child {
+.place__paragraph:nth-child(2n) {
     padding-bottom: 0;
 }
 
@@ -36,6 +36,6 @@
 
 @media (max-width: 619px) {
     .place__paragraph {
-        padding: 0 calc(16px - var(--padding-side));
+        padding: 0 calc(16px - var(--padding-side)) 26px;
     }
 }

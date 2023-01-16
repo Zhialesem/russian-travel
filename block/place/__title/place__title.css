@@ -29,7 +29,7 @@
         /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
         font-size: calc((100vw - 320px)/(768 - 320) * (42 - 32) + 32px);
         --padding-side: calc((100vw - 320px) / (768 - 320) * (0 - 16) + 16px);
-            padding: 0 var(--padding-side) 0;
+        padding: 0 var(--padding-side) 0;
+        max-width: 328px;
     }
 }
-

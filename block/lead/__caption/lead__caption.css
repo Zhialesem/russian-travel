@@ -13,7 +13,7 @@
   .lead__caption {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     --padding-side: calc((100vw - 768px) / (896 - 768)*(0 - 24) + 24px);
-    padding: 0 var(--padding-side) 0;
+    padding: 8px var(--padding-side) 0;
   }
 }
 
@@ -21,6 +21,6 @@
   .lead__caption {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     --padding-side: calc((100vw - 320px) / (768 - 320)*(24 - 16) + 16px);
-    padding: 0 var(--padding-side) 0;
+    padding: 8px var(--padding-side) 0;
   }
 }

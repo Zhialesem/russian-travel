@@ -9,7 +9,13 @@
     color: white;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 768px) {
+    .footer__copyright {
+        line-height: calc((100vw - 320px) / (768 - 320)*(16 - 14) + 14px);
+         }
+}
+
+@media (max-width: 720px) {
     .footer__copyright {
         padding-top: 48px;
     }
