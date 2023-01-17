@@ -22,7 +22,7 @@
   .place {
     /* font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
-    gap: 48px calc((100vw - 768px) / (1024 - 768)*(32 - 28) + 28px) calc((100vw - 768px) / (1024 - 768)*(32 - 48) + 48px);
+    gap: calc((100vw - 768px) / (1024 - 768)*(32 - 48) + 48px) calc((100vw - 768px) / (1024 - 768)*(32 - 28) + 28px);
     padding-top: calc((100vw - 768px) / (1024 - 768)*(80 - 72) + 72px);
   }
 }
@@ -31,13 +31,14 @@
   .place {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
-    gap:48px 32px;
+    gap: 48px 32px;
     /*gap: calc((100vw - 320px) / (768 - 320)*(48 - 32) + 32px);
     /*calc((100vw - 320px) / (768 - 320)*(48 - 12) + 12px)*/
     padding-top: calc((100vw - 320px) / (768 - 320)*(72 - 50) + 50px);
   }
 }
-@media  (max-width: 540px) {
+
+@media (max-width: 540px) {
   .place {
     grid-template-columns: minmax(min-content, max-content);
     gap: 32px;
