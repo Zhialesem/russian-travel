@@ -7,7 +7,7 @@
 @media (max-width: 1280px) {
   .lead__image {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-    padding-top: calc((100vw - 1024px) / (1280 - 1024)*(64 - 56) + 56px);
+    padding-top: calc((100vw - 1024px) / (1280 - 1024)*(64 - 53) + 53px);
   }
 }
 
@@ -20,6 +20,6 @@
 @media (max-width: 768px) {
   .lead__image {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
-    padding-top: calc((100vw - 320px) / (768 - 320)*(56 - 40) + 40px);
+    padding-top: calc((100vw - 320px) / (768 - 320)*(53 - 40) + 40px);
   }
 }
