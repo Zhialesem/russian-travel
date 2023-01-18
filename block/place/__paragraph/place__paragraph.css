@@ -7,9 +7,9 @@
     line-height: 163%;
 }
 
-.place__paragraph:nth-child(2n) {
+/*.place__paragraph:nth-child(2n) {
     padding-top: 26px;
-}
+}*/
 
 /* @media (max-width: 1280px) {
 .place__paragraph {

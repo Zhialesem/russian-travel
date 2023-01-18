@@ -11,7 +11,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     text-decoration: none;
-    /*    --img-padding: calc((100vw - 1184px) / 2);*/
+    aspect-ratio: 16 / 10;
 }
 
 .cover__background::before {
@@ -35,7 +35,6 @@
     .cover__background {
         /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);
         min-height: calc((100vw - 1024px) / (1280 - 1024)*(740 - 640) + 640px)
-
     }
 }
 */

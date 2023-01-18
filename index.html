@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0">
   <title>Путешествия по России</title>
-  <!-- Не понимаю, почему, без maximum-scale=1.0, minimum-scale=1.0" в devtools странно себя ведет-->
+  <!--,без maximum-scale=1.0, minimum-scale=1.0" в devtools странно себя ведет-->
   <link rel="icon" type="image/svg" href="./images/favicon.ico">
   <link rel="stylesheet" href="./pages/index.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,21 +20,21 @@
   <header class="header">
     <div class="header__logo"></div>
 
-    <nav class="header__lang">
+    <div class="header__lang">
       <a class="header__link header__link_active" href="#" lang="ru"> Ru</a>
       <a class="header__link" href="#" lang="en"> En</a>
-    </nav>
+    </div>
   </header>
 
   <main>
 
     <section class="lead">
-      <h1 class="lead__title">Путешествия по России</h1>
+      <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-      <div class="lead__image">
+      <figure class="lead__image">
         <img class="lead__shelf" src="./images/lead/lead-shelf.svg" alt="Женщина лежит на боковой полке в плацкарте.">
-        <p class="lead__caption">ваша полка — верхняя</p>
-      </div>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+    </figure>
     </section>
 
     <section class="intro">
@@ -88,11 +88,11 @@
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
         </div>
         <img src="./images/places/place-kosa.jpg" alt="Куршская коса" class="place__image">
-        <div>
+        <div class="place__text">
           <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
             спокойного Куршского залива с одной
             стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского
@@ -113,7 +113,7 @@
             Geographic</a>
         </div>
         <img src="./images/places/place-kolsky.jpg" alt="Кольский" class="place__image">
-        <div>
+        <div class="place__text">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
             юг —
             тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
@@ -136,7 +136,7 @@
           <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
         </div>
         <img src="./images/places/place-altai.jpg" alt="Алтай" class="place__image">
-        <div>
+        <div class="place__text">
           <p class="place__paragraph">Алтай — одно из красивейших мест в России.
             В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
             озёра. А если
@@ -157,7 +157,7 @@
           <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/places/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
-        <div>
+        <div class="place__text">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
             в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
           </p>
@@ -177,7 +177,7 @@
           <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
         </div>
         <img src="./images/places/place-karelia.jpg" alt="Карелия" class="place__image">
-        <div>
+        <div class="place__text">
           <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
             лиственница не растёт западнее Водлозера. Зато
             здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не
@@ -195,8 +195,8 @@
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__background">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-          электричках.</h3>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+          электричках.</p>
       </a>
     </section>
   </main>

@@ -1,7 +1,6 @@
 .lead__shelf {
   margin: 0;
   width: 984px;
-  height: 615px;
   --img-padding: calc((100vw - 984px) / 2);
 }
 
@@ -9,7 +8,6 @@
   .lead__shelf {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     width: calc((100vw - 1024px) / (1280 - 1024)*(984 - 928) + 928px);
-    height: calc((100vw - 1024px) / (1280 - 1024)*(615 - 580) + 580px);
     --img-padding: calc((100vw - ((100vw - 1024px) / (1280 - 1024)*(984 - 928) + 928px)) / 2);
   }
 }
@@ -18,7 +16,6 @@
   .lead__shelf {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     width: calc((100vw - 768px) / (1024 - 768)*(928 - 768) + 768px);
-    height: calc((100vw - 768px) / (1024 - 768)*(580 - 480) + 480px);
   }
 }
 
@@ -26,6 +23,5 @@
   .lead__shelf {
     /*font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
     width: calc((100vw - 320px) / (768 - 320)*(768 - 320) + 320px);
-    height: calc((100vw - 320px) / (768 - 320)*(480 - 200) + 200px);
   }
 }

@@ -2,6 +2,7 @@
   margin: 0 auto;
   width: max-content;
   padding-top: 64px;
+  aspect-ratio: 16 / 10;
 }
 
 @media (max-width: 1280px) {
